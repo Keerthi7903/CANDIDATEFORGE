@@ -412,7 +412,11 @@
         <div class="panel">
             <div class="panel-title">
                 Input Sources
-                <button type="button" class="btn-load-sample" onclick="loadSampleData()">Load Sample Candidate</button>
+                <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+                    <button type="button" class="btn-load-sample" onclick="loadSampleAarav()">Aarav Sharma</button>
+                    <button type="button" class="btn-load-sample" onclick="loadSampleRohan()">Rohan Mehta</button>
+                    <button type="button" class="btn-load-sample" onclick="loadSamplePriya()">Priya Nair</button>
+                </div>
             </div>
             
             <form method="POST" id="pipelineForm" style="display: flex; flex-direction: column; gap: 1.25rem;">
@@ -552,7 +556,7 @@
             });
         });
 
-        function loadSampleData() {
+        function loadSampleAarav() {
             const sampleAts = {
                 "applicant_name": "Aarav Sharma",
                 "contact_email": "aarav.sharma@example.com",
@@ -584,6 +588,90 @@ Open to full-time in Bangalore or remote. GitHub is github.com/aarav-sharma.
 Phone: 9876543210. Email: aarav.sharma@example.com.
 Mentioned working on satellite imagery ML project and a GNN pipeline for AML detection.
 Skills noted: Python, PyTorch, Spring Boot, MongoDB, React.`;
+
+            document.getElementById('ats_content').value = JSON.stringify(sampleAts, null, 2);
+            document.getElementById('github_username').value = "aarav-sharma";
+            document.getElementById('notes_content').value = sampleNotes;
+        }
+
+        function loadSampleRohan() {
+            const sampleAts = {
+                "applicant_name": "Rohan Mehta",
+                "contact_email": "rohan.mehta@techcorp.io",
+                "contact_phone": "8123456789",
+                "job_title": "Full Stack Developer Intern",
+                "current_company": "TechCorp Solutions",
+                "tech_stack": ["React", "Node.js", "MongoDB", "Python", "Docker"],
+                "work_history": [
+                    {
+                        "company": "TechCorp Solutions",
+                        "role": "Software Engineering Intern",
+                        "from": "January 2026",
+                        "to": "Present"
+                    },
+                    {
+                        "company": "Startup XYZ",
+                        "role": "Frontend Developer",
+                        "from": "June 2025",
+                        "to": "December 2025"
+                    }
+                ],
+                "education_info": {
+                    "college": "IIT Bombay",
+                    "degree": "B.Tech.",
+                    "branch": "Computer Science",
+                    "graduation_year": 2027
+                },
+                "source_notes": "Referred by HR. Strong React and Node background."
+            };
+
+            const sampleNotes = 
+`Spoke to Rohan on June 20. Very strong in React and Node.js, built
+full-stack apps in college. Currently at TechCorp Solutions as intern.
+Based in Mumbai, Maharashtra. Open to Bangalore or remote roles.
+GitHub: github.com/rohan-mehta. Email: rohan.mehta@techcorp.io.
+Secondary email: rohan.dev@gmail.com. Phone: 8123456789.
+Skills mentioned: Python, Docker, MongoDB, JavaScript, React.
+Worked on a microservices project and an ML pipeline side project.
+Graduation expected 2027 from IIT Bombay.`;
+
+            document.getElementById('ats_content').value = JSON.stringify(sampleAts, null, 2);
+            document.getElementById('github_username').value = "rohan-mehta";
+            document.getElementById('notes_content').value = sampleNotes;
+        }
+
+        function loadSamplePriya() {
+            const sampleAts = {
+                "applicant_name": "Priya Nair",
+                "contact_email": "priya.nair@gmail.com",
+                "contact_phone": "07894561230",
+                "job_title": "ML Engineer Intern",
+                "current_company": "DataVision AI",
+                "tech_stack": ["Python", "PyTorch", "TensorFlow", "Docker", "PostgreSQL"],
+                "work_history": [
+                    {
+                        "company": "DataVision AI",
+                        "role": "ML Research Intern",
+                        "from": "March 2026",
+                        "to": "Present"
+                    }
+                ],
+                "education_info": {
+                    "college": "NIT Trichy",
+                    "degree": "B.Tech.",
+                    "branch": "Electronics and Communication",
+                    "graduation_year": 2027
+                },
+                "source_notes": "Strong ML background. Kaggle competitions mentioned."
+            };
+
+            const sampleNotes = 
+`Spoke with Priya on June 22. Python and deep learning focused.
+Currently at DataVision AI working on computer vision models.
+Located in Chennai, Tamil Nadu. Phone: 07894561230.
+No secondary email found. GitHub unknown — did not share.
+Skills noted: PyTorch, TensorFlow, machine-learning, PostgreSQL, Python.
+Open to Bangalore relocation. Graduating 2027 from NIT Trichy.`;
 
             document.getElementById('ats_content').value = JSON.stringify(sampleAts, null, 2);
             document.getElementById('github_username').value = "aarav-sharma";

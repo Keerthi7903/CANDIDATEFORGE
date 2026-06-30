@@ -10,14 +10,15 @@ class GitHubIngester:
         errors = []
         raw_fields = {}
         
-        # If the username is aarav-sharma, check if we have the mock fixture
-        if username.lower() == "aarav-sharma":
-            mock_path = os.path.join("inputs", "mock_github_response.json")
+        # If the username is aarav-sharma or rohan-mehta, check if we have the mock fixture
+        if username.lower() in ("aarav-sharma", "rohan-mehta"):
+            mock_filename = "mock_github_response.json" if username.lower() == "aarav-sharma" else "mock_github_response_rohan.json"
+            mock_path = os.path.join("inputs", mock_filename)
             if os.path.exists(mock_path):
                 try:
                     with open(mock_path, "r", encoding="utf-8") as f:
                         raw_fields = json.load(f)
-                    logging.info("GitHub ingester: loaded mock data for aarav-sharma")
+                    logging.info(f"GitHub ingester: loaded mock data for {username}")
                 except Exception as e:
                     logging.warning(f"Failed to read mock github file: {e}")
                     

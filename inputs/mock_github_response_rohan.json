@@ -1,0 +1,23 @@
+{
+  "login": "rohan-mehta",
+  "name": "R. Mehta",
+  "email": "rohan.dev@gmail.com",
+  "bio": "Full Stack Developer passionate about React, Node.js, and Docker.",
+  "location": "Mumbai, India",
+  "blog": "https://rohanmehta.dev",
+  "html_url": "https://github.com/rohan-mehta",
+  "repos": [
+    {
+      "name": "react-dashboard",
+      "language": "JavaScript"
+    },
+    {
+      "name": "node-microservice",
+      "language": "JavaScript"
+    },
+    {
+      "name": "ml-pipeline-side",
+      "language": "Python"
+    }
+  ]
+}
