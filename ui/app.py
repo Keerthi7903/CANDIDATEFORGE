@@ -33,16 +33,6 @@ def index():
     notes_content = ""
     config_type = "default"
     
-    if request.method == "GET":
-        try:
-            with open(os.path.join("inputs", "sample_ats.json"), "r", encoding="utf-8") as f:
-                ats_content = f.read()
-            github_username = "aarav-sharma"
-            with open(os.path.join("inputs", "sample_notes.txt"), "r", encoding="utf-8") as f:
-                notes_content = f.read()
-        except Exception:
-            pass
-    
     if request.method == "POST":
         ats_content = request.form.get("ats_content", "").strip()
         github_username = request.form.get("github_username", "").strip()
