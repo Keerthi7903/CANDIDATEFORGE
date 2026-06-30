@@ -4,6 +4,8 @@ CandidateForge is a production-quality Python data pipeline designed to ingest m
 
 This implementation is built for the Jul–Dec 2026 Eightfold Engineering Intern assignment.
 
+![CandidateForge Web Dashboard](images/web_ui_dashboard.png)
+
 ## Source Types Handled & Rationale
 
 We ingest from three distinct sources to simulate the real-world challenge of applicant tracking at Eightfold:
@@ -99,6 +101,8 @@ Open your browser to `http://127.0.0.1:5000`. You can:
 - Select your Output Schema (Default or Custom configuration).
 - Click **Run Transformer Pipeline** to see the syntax-highlighted JSON output, overall confidence badge, and a granular **Field-Level Provenance Grid**.
 - Click **Load Sample Candidate** to pre-fill forms with testing credentials.
+
+![Field-Level Provenance Grid](images/provenance_grid.png)
 
 ---
 
