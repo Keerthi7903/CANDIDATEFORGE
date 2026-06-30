@@ -401,7 +401,7 @@
 </head>
 <body>
     <header>
-        <div class="logo-container">
+        <div class="logo-container" style="cursor: pointer;" onclick="clearDashboard()">
             <h1>CandidateForge</h1>
             <p>Multi-Source Candidate Data Transformer</p>
         </div>
@@ -416,10 +416,11 @@
                     <button type="button" class="btn-load-sample" onclick="loadSampleAarav()">Aarav Sharma</button>
                     <button type="button" class="btn-load-sample" onclick="loadSampleRohan()">Rohan Mehta</button>
                     <button type="button" class="btn-load-sample" onclick="loadSamplePriya()">Priya Nair</button>
+                    <button type="button" class="btn-load-sample" onclick="clearDashboard()" style="background: rgba(239, 68, 68, 0.1); border-color: rgba(239, 68, 68, 0.3); color: #f87171;">Clear</button>
                 </div>
             </div>
             
-            <form method="POST" id="pipelineForm" style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <form method="POST" id="pipelineForm" autocomplete="off" style="display: flex; flex-direction: column; gap: 1.25rem;">
                 <div class="form-group">
                     <label for="ats_content">ATS JSON</label>
                     <textarea id="ats_content" name="ats_content" placeholder="Paste raw ATS JSON here...">{{ ats_content }}</textarea>
@@ -676,6 +677,10 @@ Open to Bangalore relocation. Graduating 2027 from NIT Trichy.`;
             document.getElementById('ats_content').value = JSON.stringify(sampleAts, null, 2);
             document.getElementById('github_username').value = "aarav-sharma";
             document.getElementById('notes_content').value = sampleNotes;
+        }
+
+        function clearDashboard() {
+            window.location.href = '/';
         }
     </script>
 </body>
