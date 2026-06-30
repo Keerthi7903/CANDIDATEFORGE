@@ -14,6 +14,11 @@ from pipeline.projector import Projector
 
 app = Flask(__name__)
 
+# Silence root logger warnings/errors to keep terminal output clean during Web UI runs
+logging.getLogger().setLevel(logging.CRITICAL)
+# Keep Flask server connection logs active
+logging.getLogger("werkzeug").setLevel(logging.INFO)
+
 os.makedirs("inputs", exist_ok=True)
 
 @app.route("/", methods=["GET", "POST"])
