@@ -1,0 +1,17 @@
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest
+.pytest_cache/
+
+# Flask & Temp Input Files
+inputs/temp_ats.json
+inputs/temp_notes.txt
+
+# Assignment Instructions & Prompts
+Eightfold agent prompt.md
+*.pdf
+*.docx

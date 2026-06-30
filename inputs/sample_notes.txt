@@ -1,0 +1,6 @@
+Spoke to Aarav on June 15. Strong Python and ML background, worked with transformers.
+Currently interning at Madhwa Infotech as tech lead. Based in Bangalore.
+Open to full-time in Bangalore or remote. GitHub is github.com/aarav-sharma.
+Phone: 9876543210. Email: aarav.sharma@example.com.
+Mentioned working on satellite imagery ML project and a GNN pipeline for AML detection.
+Skills noted: Python, PyTorch, Spring Boot, MongoDB, React.

@@ -1,0 +1,23 @@
+{
+  "applicant_name": "Aarav Sharma",
+  "contact_email": "aarav.sharma@example.com",
+  "contact_phone": "9876543210",
+  "job_title": "Backend Engineering Intern",
+  "current_company": "Madhwa Infotech",
+  "tech_stack": ["Spring Boot", "MongoDB", "Python", "Tailwind CSS"],
+  "work_history": [
+    {
+      "company": "Madhwa Infotech",
+      "role": "Technical Team Lead Intern",
+      "from": "June 2026",
+      "to": "Present"
+    }
+  ],
+  "education_info": {
+    "college": "BMS College of Engineering",
+    "degree": "B.E.",
+    "branch": "Computer Science",
+    "graduation_year": 2027
+  },
+  "source_notes": "Applied via LinkedIn. Strong Python background."
+}

@@ -1,0 +1,8 @@
+applicant_name: full_name
+contact_email: emails
+contact_phone: phones
+job_title: headline
+current_company: current_company
+tech_stack: skills
+work_history: experience
+education_info: education

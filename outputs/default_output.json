@@ -1,0 +1,276 @@
+{
+  "candidate_id": "31237de66c8e2507a50cc24dd7a3fa792055a6004955d9cc7ba9dd2627bd3c62",
+  "full_name": "A. Sharma",
+  "emails": [
+    "aarav.dev@gmail.com",
+    "aarav.sharma@example.com"
+  ],
+  "phones": [
+    "+919876543210"
+  ],
+  "location": {
+    "city": "Bangalore",
+    "region": null,
+    "country": "IN"
+  },
+  "links": {
+    "linkedin": null,
+    "github": "https://github.com/aarav-sharma",
+    "portfolio": "https://aaravsharma.dev",
+    "other": []
+  },
+  "headline": "Backend Software Intern passionate about Python, Spring Boot, MongoDB, and ML.",
+  "years_experience": 0.1,
+  "skills": [
+    {
+      "name": "python",
+      "sources": [
+        "ats_json",
+        "github_api",
+        "recruiter_notes"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "java",
+      "sources": [
+        "github_api"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "spring-boot",
+      "sources": [
+        "ats_json",
+        "recruiter_notes"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "mongodb",
+      "sources": [
+        "ats_json",
+        "recruiter_notes"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "tailwind-css",
+      "sources": [
+        "ats_json"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "machine-learning",
+      "sources": [
+        "recruiter_notes"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "name": "pytorch",
+      "sources": [
+        "recruiter_notes"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "name": "react",
+      "sources": [
+        "recruiter_notes"
+      ],
+      "confidence": 0.65
+    }
+  ],
+  "experience": [
+    {
+      "company": "Madhwa Infotech",
+      "title": "Technical Team Lead Intern",
+      "start": "2026-06",
+      "end": null,
+      "summary": "Extracted from recruiter notes: interning at Madhwa Infotech as tech"
+    }
+  ],
+  "education": [
+    {
+      "institution": "BMS College of Engineering",
+      "degree": "B.E.",
+      "field": "Computer Science",
+      "end_year": 2027
+    }
+  ],
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "full_name",
+      "source": "ats_json",
+      "method": "conflict_discarded"
+    },
+    {
+      "field": "full_name",
+      "source": "recruiter_notes",
+      "method": "conflict_discarded"
+    },
+    {
+      "field": "headline",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "headline",
+      "source": "ats_json",
+      "method": "conflict_discarded"
+    },
+    {
+      "field": "emails[0]",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "emails[1]",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "phones[0]",
+      "source": "ats_json",
+      "method": "assumed_region_normalization"
+    },
+    {
+      "field": "location.city",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "location.region",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "location.country",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "location",
+      "source": "recruiter_notes",
+      "method": "conflict_discarded"
+    },
+    {
+      "field": "links.github",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "links.github",
+      "source": "recruiter_notes",
+      "method": "conflict_discarded"
+    },
+    {
+      "field": "links.portfolio",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "skills[0]",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "skills[0]",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "skills[0]",
+      "source": "recruiter_notes",
+      "method": "regex_parse"
+    },
+    {
+      "field": "skills[1]",
+      "source": "github_api",
+      "method": "api_extraction"
+    },
+    {
+      "field": "skills[2]",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "skills[2]",
+      "source": "recruiter_notes",
+      "method": "regex_parse"
+    },
+    {
+      "field": "skills[3]",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "skills[3]",
+      "source": "recruiter_notes",
+      "method": "regex_parse"
+    },
+    {
+      "field": "skills[4]",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "skills[5]",
+      "source": "recruiter_notes",
+      "method": "regex_parse"
+    },
+    {
+      "field": "skills[6]",
+      "source": "recruiter_notes",
+      "method": "regex_parse"
+    },
+    {
+      "field": "skills[7]",
+      "source": "recruiter_notes",
+      "method": "regex_parse"
+    },
+    {
+      "field": "experience[0].company",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "experience[0].title",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "experience[0].title",
+      "source": "recruiter_notes",
+      "method": "conflict_discarded"
+    },
+    {
+      "field": "experience[0].dates",
+      "source": "recruiter_notes",
+      "method": "regex_parse"
+    },
+    {
+      "field": "education[0].institution",
+      "source": "ats_json",
+      "method": "direct_mapping"
+    },
+    {
+      "field": "years_experience",
+      "source": "pipeline_calculation",
+      "method": "date_duration_aggregation"
+    },
+    {
+      "field": "candidate_id",
+      "source": "pipeline_calculation",
+      "method": "email_sha256"
+    }
+  ],
+  "overall_confidence": 0.79
+}

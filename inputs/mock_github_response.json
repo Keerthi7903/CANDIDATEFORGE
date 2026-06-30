@@ -1,0 +1,23 @@
+{
+  "login": "aarav-sharma",
+  "name": "A. Sharma",
+  "email": "aarav.dev@gmail.com",
+  "bio": "Backend Software Intern passionate about Python, Spring Boot, MongoDB, and ML.",
+  "location": "Bangalore, India",
+  "blog": "https://aaravsharma.dev",
+  "html_url": "https://github.com/aarav-sharma",
+  "repos": [
+    {
+      "name": "satellite-imagery-ml",
+      "language": "Python"
+    },
+    {
+      "name": "gnn-aml-detection",
+      "language": "Python"
+    },
+    {
+      "name": "springboot-backend",
+      "language": "Java"
+    }
+  ]
+}
